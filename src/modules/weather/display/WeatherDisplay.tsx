@@ -18,13 +18,15 @@ export const WeatherDisplay = ({ weather, units }: WeatherDisplayProps) => {
   const sunriseTime = dayjs
     .unix(weather.sys.sunrise)
     .utc()
-    .utcOffset(60)
+    .utcOffset(weather.timezone / 60)
     .format("H:mm")
   const sunsetTime = dayjs
     .unix(weather.sys.sunset)
     .utc()
-    .utcOffset(60)
+    .utcOffset(weather.timezone / 60)
     .format("H:mm")
+
+  console.log(dayjs.unix(weather.sys.sunrise))
 
   return (
     <div className={styles.weatherDisplay}>
