@@ -1,0 +1,17 @@
+.weatherNavigation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weatherNavigationInput {
+  width: 140px;
+}
+
+.weatherNavigationToggleWrapper {
+  display: flex;
+  gap: 12px;
+  font-size: 14pt;
+  font-weight: 600;
+}

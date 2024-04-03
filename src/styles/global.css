@@ -1,0 +1,46 @@
+:root {
+  --background: 255, 255, 255;
+  --foreground: 23, 24, 28;
+
+  --primary-background: 245, 245, 245;
+  --primary-foreground: 23, 24, 28;
+
+  --secondary-background: 247, 246, 242;
+  --secondary-foreground: 34, 34, 34;
+
+  --accent-background: 235, 235, 235;
+  --accent-foreground: 113, 113, 113;
+
+  --muted-background: 221, 221, 221;
+  --muted-foreground: 113, 113, 113;
+
+  --destructive: 251, 76, 60;
+
+  --color-blue: 100, 149, 237;
+
+  --box-shadow: 0 0 8px 4px rgba(34, 60, 80, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

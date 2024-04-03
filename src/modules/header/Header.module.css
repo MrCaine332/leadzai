@@ -1,0 +1,18 @@
+.header {
+  background-color: rgb(var(--color-blue));
+  height: 60px;
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
+}
+
+.headerContainer {
+  height: 100%;
+  color: rgb(var(--primary-background));
+  font-size: 16pt;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

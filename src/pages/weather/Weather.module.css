@@ -1,0 +1,29 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 12px;
+}
+
+.weatherPending {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherError {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 16pt;
+
+  color: rgb(var(--destructive));
+}

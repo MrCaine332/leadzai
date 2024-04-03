@@ -1,0 +1,30 @@
+.toggle {
+  width: 56px;
+  height: 24px;
+  background: rgb(var(--accent-background));
+  border: none;
+  border-radius: 56px;
+  box-shadow: 0 0 4px 2px rgb(var(--muted-background)) inset;
+
+  position: relative;
+  cursor: pointer;
+}
+.toggle:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-100%);
+  transition: 0.15s;
+
+  width: 24px;
+  height: 24px;
+
+  border: 4px solid rgb(var(--muted-background));
+  border-radius: 50%;
+  background: rgb(var(--color-blue));
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.toggleActive:before {
+  transform: translateY(-50%) translateX(0);
+}
