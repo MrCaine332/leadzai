@@ -9,7 +9,7 @@ Live demo: [leadzai.arkheg.com](https://leadzai.arkheg.com)
 - ~~Select with at least 3 cities included~~ A combobox was introduced instead. It has a built-in select with 7 predefined cities and additionally can work as a dynamic search. Once the user enters a city, a request will be sent to the server. If the city is found, data will be displayed; otherwise, an error message will appear.
 
 ## Dependencies:
-As stated in the requirements, I tried to avoid adding new dependencies as much as possible. Ultimately, I ended up with 6 dependencies:
+As stated in the requirements, I tried to avoid adding new dependencies as much as possible. Ultimately, I ended up with 7 dependencies:
 
 #### Utility:
 - ***prettier*** - A package for automatic code formatting, making the code cleaner and more readable.
@@ -19,3 +19,4 @@ As stated in the requirements, I tried to avoid adding new dependencies as much 
 - ***effector-react*** - A library that connects ***effector*** and ***react***.
 - ***patronum*** - A utility library built on top of ***effector***. It was used for simplified API request status processing and debounced requests logic.
 - ***dayjs*** - A simple date processing library. It was used for parsing Unix timestamps into local sunrise/sunset times.
+- ***Axios*** - Library for handling API requests.
